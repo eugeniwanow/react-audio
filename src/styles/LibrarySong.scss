@@ -1,0 +1,29 @@
+.library {
+    width: 40%;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px black;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.LibrarySong {
+    margin-bottom: 20px;
+    display: flex;
+    img {
+        width: 30%;
+    }
+    &__title {
+        width: 70%;
+        padding: 20px;
+        text-align: center;
+        transition: 0.4s;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.089);
+        }
+    }
+
+    &--selected {
+        background-color: rgba(56, 64, 173, 0.274);
+    }
+}
